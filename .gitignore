@@ -1,0 +1,24 @@
+# Секреты
+.env
+
+# Данные — качаются через kaggle
+data/
+
+# Модель — большой файл
+models/
+
+# БД
+postgres_data/
+
+# MLflow
+mlflow/store/
+mlflow/artifacts/
+
+# Python кэш — не нужен в git
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# VS Code
+.vscode/
