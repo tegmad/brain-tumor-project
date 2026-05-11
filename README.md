@@ -14,6 +14,7 @@
     *   **Input:** Берет данные из `./data/raw/`.
     *   **Processing:** Обучает нейросеть `U-Net` с оптимизатором `Adam`.
     *   **Tracking:** Все метрики (Loss, Dice) и параметры (`LR=2.5e-05`) летят в **MLflow Server**.
+    *   **GPU:** NVIDIA GeForce RTX 3060 (12 ГБ), на  .
     *   **Output:** Лучшие веса сохраняются в `./models/model.pth`.
 3.  **Inference (FastAPI):**
     *   **Input:** Принимает JPG/PNG снимок от пользователя.
